@@ -1,0 +1,24 @@
+﻿@model MusicStore.Domain.Entities.Account
+<div id="cart">
+    <span id="user">
+            @if (Session["User"] != null)
+            {
+                
+                <div><span>
+                    @if (Model.ImageData != null)
+                    {
+                        <img align="right" width="60" height="60"
+                             src="@Url.Action("GetImage", "Account", new { Model.AccountId })" />
+                    }
+                </span><b>User:</b>@Model.Username<span>&emsp;</span>
+                @Html.ActionLink("Profile", "Profile", "Account")
+                @Html.ActionLink("History", "History", "Account")
+                @Html.ActionLink("LogOut", "LogOut", "Account")
+                </div>
+            } else {
+                <b>Anonymous:</b>
+                @Html.ActionLink("LogIn", "LogIn", "Account")
+            }
+    </span>
+</div>
+

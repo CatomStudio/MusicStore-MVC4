@@ -1,0 +1,311 @@
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\Antlr3.Runtime.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Http.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Optimization.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Providers.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\WebGrease.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.xml
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.xml
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Http.xml
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.xml
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.xml
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.xml
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.xml
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\Moq.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.WebUI\bin\Moq.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\Moq.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.Http.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.Optimization.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.Providers.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\WebGrease.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\Moq.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.Http.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+G:\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+G:\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+G:\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+G:\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+G:\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+G:\SportsStore\SportsStore.WebUI\bin\Antlr3.Runtime.dll
+G:\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+G:\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+G:\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+G:\SportsStore\SportsStore.WebUI\bin\Moq.dll
+G:\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.dll
+G:\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+G:\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+G:\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.dll
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.Http.dll
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.dll
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.Optimization.dll
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.Providers.dll
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.dll
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.dll
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.dll
+G:\SportsStore\SportsStore.WebUI\bin\WebGrease.dll
+G:\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+G:\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+G:\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+G:\SportsStore\SportsStore.WebUI\bin\Moq.xml
+G:\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+G:\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+G:\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.xml
+G:\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.xml
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.Http.xml
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.xml
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.xml
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.xml
+G:\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\Moq.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.Http.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.Optimization.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.Providers.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\WebGrease.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\Moq.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.Http.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\EntityFramework.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\Moq.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\Ninject.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.Http.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.Optimization.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.Providers.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.WebPages.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\WebGrease.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\EntityFramework.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\Moq.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\Ninject.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\Ninject.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.Http.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.WebPages.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\EntityFramework.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\Moq.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\Ninject.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.Http.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.Optimization.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.Providers.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.WebPages.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\WebGrease.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\EntityFramework.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\Moq.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\Ninject.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\Ninject.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.Http.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.WebPages.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\EntityFramework.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\Moq.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\Ninject.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Http.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Optimization.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Providers.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.WebPages.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\WebGrease.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\EntityFramework.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\Moq.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\Ninject.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\Ninject.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Http.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.WebPages.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH11\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\EntityFramework.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\Moq.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\Ninject.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Http.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Optimization.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Providers.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.WebPages.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\WebGrease.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\EntityFramework.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\Moq.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\Ninject.pdb
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\Ninject.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Http.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.WebPages.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb

@@ -1,0 +1,55 @@
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+c:\users\camt.r314-22.000\documents\visual studio 2012\Projects\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\Users\CAMT.R314-22.000\Desktop\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH9\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\Users\VAIO CA\Desktop\invisualNATE\SportsStoreCH10\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\Users\Witsaruz\Desktop\Projects\SportsStoreCH11\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb

@@ -1,0 +1,21 @@
+﻿@model IQueryable<MusicStore.Domain.Entities.Order>
+@{
+    ViewBag.Title = "User: History";
+}
+
+<h1>History</h1>
+<p>Your MusicStore order history</p>
+<table class="order">
+    <td width="100px"><h4>Orderer</h4></td>
+    <td width="100px"><h4>Recipient</h4></td>
+    <td width="300px"><h4>Address</h4></td>
+    <td width="300px"><h4>Item List</h4></td>
+    <td width="100px"><h4>Payment Option</h4></td>
+    <td width="100px"><h4>Total Price</h4></td>
+</table>
+@foreach (var o in Model)
+{
+    Html.RenderPartial("OrderHistory", o);
+}
+
+

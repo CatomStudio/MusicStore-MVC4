@@ -1,0 +1,18 @@
+﻿@model MusicStore.Domain.Entities.Account
+@{
+    ViewBag.Title = "User: Register";
+}
+
+<h1>Register</h1>
+<p>Fill your information for registering the MusicStore:</p>
+@using (Html.BeginForm("Register", "Account", FormMethod.Post,
+FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary()
+    <p><h3>Username:</h3></p>@Html.EditorFor(x => x.Username)
+    <p><h3>Password:</h3></p>@Html.EditorFor(x => x.Password)
+    <p><h3>Fullname:</h3></p>@Html.EditorFor(x => x.Name)
+    <p><h3>Address:</h3></p>@Html.TextAreaFor(x => x.Address)
+    <p><h3>Image: <input type="file" name="Image" /></h3></p>
+    <p><div><input class="button" type="submit" value="Register" /></div></p>
+}

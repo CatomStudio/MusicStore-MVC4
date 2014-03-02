@@ -1,0 +1,30 @@
+﻿@model MusicStore.Domain.Entities.Account
+@{
+    ViewBag.Title = "User: Profile";
+}
+
+<h1>Profile</h1>
+<p>Update your account information:</p>
+@using (Html.BeginForm("Update", "Account", FormMethod.Post,
+FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary()
+    @Html.HiddenFor(x=>x.AccountId)
+    @Html.HiddenFor(x=>x.Username)
+    @Html.HiddenFor(x=>x.Password)
+    <p><h3>Fullname:</h3></p>@Html.EditorFor(x => x.Name)
+    <p><h3>Address:</h3></p>@Html.TextAreaFor(x => x.Address)
+    <div>
+        @if (Model.ImageData == null)
+        {
+            <br/>@:No Image
+        }
+        else
+        {
+            <img width="150" height="150"
+                 src="@Url.Action("GetImage", "Account", new { Model.AccountId })" />
+        }
+        <p><h3>Image: <input type="file" name="Image" /></h3></p>
+    </div>
+    <p><div><input class="button" type="submit" value="Update" /></div></p>
+}
