@@ -90,20 +90,21 @@ namespace SportsStore.WebUI.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (image != null)
+                if (account.Username.ToLower() != "admin")
                 {
-                    account.ImageMimeType = image.ContentType;
-                    account.ImageData = new byte[image.ContentLength];
-                    image.InputStream.Read(account.ImageData, 0, image.ContentLength);
-                }
-                bool succeed = repository.CreateAccount(account);
-                if (succeed)
-                {
-                    TempData["message"] = string.Format("{0} has been saved", account.Username);
-                    return RedirectToAction("Login", "Account");
-                }
-                else
-                {
+                    CheckUploadImage(account, image);
+                    bool succeed = repository.CreateAccount(account);
+                    if (succeed)
+                    {
+                        TempData["message"] = string.Format("{0} has been saved", account.Username);
+                        return RedirectToAction("Login", "Account");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "The username already exists!");
+                        return View();
+                    }
+                }else{
                     ModelState.AddModelError("", "The username already exists!");
                     return View();
                 }
@@ -125,12 +126,7 @@ namespace SportsStore.WebUI.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (image != null)
-                {
-                    account.ImageMimeType = image.ContentType;
-                    account.ImageData = new byte[image.ContentLength];
-                    image.InputStream.Read(account.ImageData, 0, image.ContentLength);
-                }
+                CheckUploadImage(account, image);
                 repository.SaveAccount(account);
                 TempData["message"] = string.Format("{0} has been updated", account.Username);
                 return RedirectToAction("List", "Product");
@@ -148,6 +144,15 @@ namespace SportsStore.WebUI.Controllers
             return View(entry);
         }
 
+        private void CheckUploadImage(Account account,HttpPostedFileBase image)
+        {
+            if (image != null)
+            {
+                account.ImageMimeType = image.ContentType;
+                account.ImageData = new byte[image.ContentLength];
+                image.InputStream.Read(account.ImageData, 0, image.ContentLength);
+            }
+        }
         public FileContentResult GetImage(int accountId)
         {
             Account acc = repository.Accounts.FirstOrDefault(p => p.AccountId == accountId);
