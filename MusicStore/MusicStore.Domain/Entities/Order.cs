@@ -26,5 +26,7 @@ namespace MusicStore.Domain.Entities
         public string Lines { get; set; }
         [Required]
         public decimal TotalPrice { get; set; }
+        [Required]
+        public DateTime Datetime { get; set; }
     }
 }

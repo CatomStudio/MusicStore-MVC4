@@ -40,10 +40,10 @@ Please enter your details, and we'll ship your goods right away!
     @{string lines = "";}
     @foreach(var line in Model.Cart.Lines){
         @line.Product.Name
-        <span>=</span>
+        <span>(</span>
         @line.Quantity
-        <span>,</span>
-        lines += line.Product.Name + "=" + line.Quantity + ",";
+        <span>),</span>
+        lines += line.Product.Name + "(" + line.Quantity + "),";
     }
     </div>
     @Html.Hidden("Order.Lines", lines)

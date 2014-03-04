@@ -34,6 +34,7 @@ namespace MusicStore.WebUI.Controllers
             {
                 ModelState.AddModelError("", "Sorry, your cart is empty!");
             }
+            order.Datetime = DateTime.Now;
             if (ModelState.IsValid)
             {
                 orderRepository.SaveOrder(order);
