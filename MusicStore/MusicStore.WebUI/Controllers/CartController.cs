@@ -14,12 +14,12 @@ namespace MusicStore.WebUI.Controllers
     {
 
         private IProductRepository repository;
-        private IOrderRepository orderRepository;
+        private IOrderRepository repository2;
 
         public CartController(IProductRepository repo,IOrderRepository order)
         {
             repository = repo;
-            orderRepository = order;
+            repository2 = order;
         }
         //Add new method for summary
         public PartialViewResult Summary(Cart cart)
@@ -37,7 +37,7 @@ namespace MusicStore.WebUI.Controllers
             order.Datetime = DateTime.Now;
             if (ModelState.IsValid)
             {
-                orderRepository.SaveOrder(order);
+                repository2.SaveOrder(order);
                 cart.Clear();
                 return View("Completed");
             }
