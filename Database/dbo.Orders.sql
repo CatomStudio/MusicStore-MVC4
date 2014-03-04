@@ -6,6 +6,7 @@
     [PaymentOption] VARCHAR (50)  NOT NULL,
     [Lines]         VARCHAR (MAX) NOT NULL,
     [TotalPrice]    DECIMAL (18)  NOT NULL,
+    [Datetime]      DATETIME      NOT NULL,
     PRIMARY KEY CLUSTERED ([OrderId] ASC)
 );
 
