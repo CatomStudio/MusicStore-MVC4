@@ -1,0 +1,21 @@
+﻿
+》》Repository 和 UnitOfWork 区别：
+1. Repository 关注的是数据处理的细节问题，如增删改查；而 UnitOfWork 关注的是连接、事物等的数据库宏观的问题。
+	两者间是不同角度的关系，而不是包含的关系。
+	Repository ——> CRUD
+	UnitOfWork——>DB
+
+》》C#中Abstract和Virtual
+在C#的学习中，容易混淆virtual方法和abstract方法的使用，现在来讨论一下二者的区别。二者都牵涉到在派生类中与override的配合使用。
+一、Virtual方法（虚方法）
+     virtual 关键字用于在基类中修饰方法。virtual的使用会有两种情况：
+     情况1：在基类中定义了virtual方法，但在派生类中没有重写该虚方法。那么在对派生类实例的调用中，该虚方法使用的是基类定义的方法。
+     情况2：在基类中定义了virtual方法，然后在派生类中使用override重写该方法。那么在对派生类实例的调用中，该虚方法使用的是派生重写的方法。
+二、Abstract方法（抽象方法）
+     abstract关键字只能用在抽象类中修饰方法，并且没有具体的实现。抽象方法的实现必须在派生类中使用override关键字来实现。
+
+
+
+
+
+

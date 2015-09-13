@@ -1,10 +1,13 @@
-﻿using MusicStore.Domain.Abstract;
-using MusicStore.Domain.Entities;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using MusicStore.Domain.Data;
 
-namespace MusicStore.Domain.Concrete
+namespace MusicStore.Service.Account
 {
-    public class EFAccountRepository : BaseRepository<Account>
+
+    public class AccountRepo : BaseRepository<Account>
     {
         public IQueryable<Account> Accounts
         {
@@ -13,9 +16,9 @@ namespace MusicStore.Domain.Concrete
         public bool CreateAccount(Account account)
         {
             bool exist = false;
-            
+
             Account acc = context.Accounts.FirstOrDefault(x => x.Username.Equals(account.Username));
-            if (acc==null)
+            if (acc == null)
             {
                 exist = true;
                 context.Accounts.Add(account);

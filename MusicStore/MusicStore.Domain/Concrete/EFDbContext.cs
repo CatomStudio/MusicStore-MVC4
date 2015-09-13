@@ -1,5 +1,4 @@
 ﻿using MusicStore.Domain.Entities;
-using System.Data.Entity;
 namespace MusicStore.Domain.Concrete
 {
     public class EFDbContext : DbContext

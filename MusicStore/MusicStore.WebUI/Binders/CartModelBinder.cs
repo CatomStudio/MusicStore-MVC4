@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web.Mvc;
 using MusicStore.Domain.Entities;
+
 namespace MusicStore.WebUI.Binders
 {
     public class CartModelBinder : IModelBinder
