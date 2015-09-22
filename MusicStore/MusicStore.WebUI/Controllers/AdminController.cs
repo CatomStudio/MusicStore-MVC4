@@ -1,5 +1,9 @@
-﻿using MusicStore.Domain.Abstract;
+﻿using MusicStore.Domain.Data;
 using MusicStore.Domain.Entities;
+using MusicStore.Domain.Repo;
+using MusicStore.Domain.Utils;
+using MusicStore.Service.Products;
+using MusicStore.Service.Orders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,30 +12,35 @@ using System.Web.Mvc;
 using MusicStore.WebUI.Infrastructure.Abstract;
 using MusicStore.WebUI.Infrastructure.Concrete;
 
-namespace SportsStore.WebUI.Controllers
+namespace MusicStore.WebUI.Controllers
 {
     [Authorize]
-    public class AdminController : Controller
+    public class AdminController : BaseController
     {
         IAuthProvider authProvider;
-        private IProductRepository repository;
-        private IOrderRepository repository2;
-        public AdminController(IAuthProvider auth,IProductRepository repo,IOrderRepository repo2)
+        private ProductManage proRepo;
+        private OrderManage ordRepo;
+
+        public AdminController()
         {
-            authProvider = auth;
-            repository = repo;
-            repository2 = repo2;
+            using (UnitOfWork)
+            {
+                this.proRepo = new ProductManage(UnitOfWork);
+                this.ordRepo = new OrderManage(UnitOfWork);
+            }
         }
+
         public ViewResult Index()
         {
-            return View(repository.Products);
+            return View(proRepo.Products);
         }
+
         public ViewResult Edit(int productId)
         {
-            Product product = repository.Products
-            .FirstOrDefault(p => p.ProductId == productId);
+            Product product = proRepo.Products.FirstOrDefault(p => p.ProductId == productId);
             return View(product);
         }
+
         [HttpPost]
         public ActionResult Edit(Product product, HttpPostedFileBase image)
         {
@@ -43,7 +52,7 @@ namespace SportsStore.WebUI.Controllers
                     product.ImageData = new byte[image.ContentLength];
                     image.InputStream.Read(product.ImageData, 0, image.ContentLength);
                 }
-                repository.SaveProduct(product);
+                this.proRepo.SaveProduct(product);
                 TempData["message"] = string.Format("{0} has been saved", product.Name);
                 return RedirectToAction("Index");
             }
@@ -53,6 +62,7 @@ namespace SportsStore.WebUI.Controllers
                 return View(product);
             }
         }
+
         public ViewResult Create()
         {
             return View("Edit", new Product());
@@ -61,7 +71,7 @@ namespace SportsStore.WebUI.Controllers
         [HttpPost]
         public ActionResult Delete(int productId)
         {
-            Product deletedProduct = repository.DeleteProduct(productId);
+            Product deletedProduct = this.proRepo.DeleteProduct(productId);
             if (deletedProduct != null)
             {
                 TempData["message"] = string.Format("{0} was deleted",
@@ -72,7 +82,7 @@ namespace SportsStore.WebUI.Controllers
 
         public ActionResult History()
         {
-            return View(repository2.Orders);
+            return View(this.ordRepo.Orders);
         }
 
         public ActionResult Logout()

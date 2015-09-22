@@ -1,5 +1,8 @@
-﻿using MusicStore.Domain.Abstract;
+﻿using MusicStore.Domain.Data;
 using MusicStore.Domain.Entities;
+using MusicStore.Domain.Repo;
+using MusicStore.Service.Products;
+using MusicStore.Service.Orders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,17 +13,20 @@ using MusicStore.WebUI.Models;
 namespace MusicStore.WebUI.Controllers
 {
 
-    public class CartController : Controller
+    public class CartController : BaseController
     {
+        private ProductManage proRepo;
+        private OrderManage ordRepo;
 
-        private IProductRepository repository;
-        private IOrderRepository repository2;
-
-        public CartController(IProductRepository repo,IOrderRepository order)
+        public CartController()
         {
-            repository = repo;
-            repository2 = order;
+            using (UnitOfWork)
+            {
+                this.proRepo = new ProductManage(UnitOfWork);
+                this.ordRepo = new OrderManage(UnitOfWork);
+            }
         }
+
         //Add new method for summary
         public PartialViewResult Summary(Cart cart)
         {
@@ -37,7 +43,7 @@ namespace MusicStore.WebUI.Controllers
             order.Datetime = DateTime.Now;
             if (ModelState.IsValid)
             {
-                repository2.SaveOrder(order);
+                this.ordRepo.SaveOrder(order);
                 cart.Clear();
                 return View("Completed");
             }
@@ -84,8 +90,7 @@ namespace MusicStore.WebUI.Controllers
         {
             if (Session["User"] != null)
             {
-                Product product = repository.Products
-                    .FirstOrDefault(p => p.ProductId == productId);
+                Product product = this.proRepo.Products.FirstOrDefault(p => p.ProductId == productId);
                 if (product != null)
                 {
                     cart.AddItem(product, 1);
@@ -97,16 +102,17 @@ namespace MusicStore.WebUI.Controllers
                 return RedirectToAction("Login", "Account");
             }
         }
+
         public RedirectToRouteResult RemoveFromCart(Cart cart, int productId, string returnUrl)
         {
-            Product product = repository.Products
-                .FirstOrDefault(p => p.ProductId == productId);
+            Product product = this.proRepo.Products.FirstOrDefault(p => p.ProductId == productId);
             if (product != null)
             {
                 cart.RemoveLine(product);
             }
             return RedirectToAction("Index", new { returnUrl });
         }
+
         private Cart GetCart()
         {
             Cart cart = (Cart)Session["Cart"];
@@ -117,5 +123,6 @@ namespace MusicStore.WebUI.Controllers
             }
             return cart;
         }
+
     }
 }

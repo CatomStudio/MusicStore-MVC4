@@ -9,6 +9,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using MusicStore.Domain.Entities;
 using MusicStore.WebUI.Binders;
+using MusicStore.WebUI.App_Start;
 
 namespace MusicStore.WebUI
 {
@@ -28,6 +29,9 @@ namespace MusicStore.WebUI
 
             ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory());
             ModelBinders.Binders.Add(typeof(Cart), new CartModelBinder());
+
+            Bootstrapper.Instance.Initialise();
+            
         }
     }
 }

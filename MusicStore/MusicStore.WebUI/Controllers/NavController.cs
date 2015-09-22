@@ -3,25 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using MusicStore.Domain.Abstract;
+using MusicStore.Domain.Data;
+using MusicStore.Domain.Entities;
+using MusicStore.Domain.Repo;
+using MusicStore.Service.Products;
 
-namespace SportsStore.WebUI.Controllers
+namespace MusicStore.WebUI.Controllers
 {
-    public class NavController : Controller
+    public class NavController : BaseController
     {
-        private IProductRepository repository;
-        public NavController(IProductRepository repo)
+        private ProductManage proRepo;
+
+        public NavController()
         {
-            repository = repo;
+            using (UnitOfWork)
+            {
+                this.proRepo = new ProductManage(UnitOfWork);
+            }
         }
+
         public PartialViewResult Menu(string category = null)
         {
             ViewBag.SelectedCategory = category;
 
-            IEnumerable<string> categories = repository.Products
-            .Select(x => x.Category)
-            .Distinct()
-            .OrderBy(x => x);
+            IEnumerable<string> categories = this.proRepo.Products.Select(x => x.Category).Distinct().OrderBy(x => x);
             return PartialView(categories);
         }
 

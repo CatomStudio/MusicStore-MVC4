@@ -4,23 +4,28 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MusicStore.Domain.Entities;
-using MusicStore.Domain.Abstract;
-using MusicStore.Domain.Concrete;
+using MusicStore.Domain.Data;
+using MusicStore.Domain.Repo;
+using MusicStore.Service.Accounts;
+using MusicStore.Service.Orders;
 using MusicStore.WebUI.Infrastructure.Abstract;
 using MusicStore.WebUI.Models;
 
-namespace SportsStore.WebUI.Controllers
+namespace MusicStore.WebUI.Controllers
 {
-    public class AccountController : Controller
+    public class AccountController : BaseController
     {
         IAuthProvider authProvider;
-        private IAccountRepository repository;
-        private IOrderRepository repository2;
-        public AccountController(IAuthProvider auth, IAccountRepository repo, IOrderRepository repo2)
+        private AccountManage accRepo;
+        private OrderManage ordRepo; 
+
+        public AccountController()
         {
-            authProvider = auth;
-            repository = repo;
-            repository2 = repo2;
+            using (UnitOfWork)
+            {
+                this.accRepo = new AccountManage(UnitOfWork);
+                this.ordRepo = new OrderManage(UnitOfWork);
+            }
         }
 
         public ViewResult Login()
@@ -40,7 +45,7 @@ namespace SportsStore.WebUI.Controllers
             var user = Session["User"];
             if (user != null)
             {
-                Account acc = repository.Accounts.FirstOrDefault(x => x.Username == user);
+                Account acc = this.accRepo.Accounts.FirstOrDefault(x => x.Username == user);
                 if (acc!=null)
                 {
                     return PartialView(acc);
@@ -61,7 +66,7 @@ namespace SportsStore.WebUI.Controllers
                 }
                 else
                 {
-                    Account acc = repository.Accounts.FirstOrDefault(x => x.Username == model.UserName && x.Password == model.Password);
+                    Account acc = this.accRepo.Accounts.FirstOrDefault(x => x.Username == model.UserName && x.Password == model.Password);
                     if (acc!=null)
                     {
                         authProvider.Logout();
@@ -93,7 +98,7 @@ namespace SportsStore.WebUI.Controllers
                 if (account.Username.ToLower() != "admin")
                 {
                     CheckUploadImage(account, image);
-                    bool succeed = repository.CreateAccount(account);
+                    bool succeed = this.accRepo.CreateAccount(account);
                     if (succeed)
                     {
                         TempData["message"] = string.Format("{0} has been saved", account.Username);
@@ -118,7 +123,7 @@ namespace SportsStore.WebUI.Controllers
         public ActionResult Profile()
         {
             var user = Session["User"];
-            Account account = repository.Accounts.FirstOrDefault(x => x.Username == user);
+            Account account = this.accRepo.Accounts.FirstOrDefault(x => x.Username == user);
             return View(account);
         }
         [HttpPost]
@@ -127,7 +132,7 @@ namespace SportsStore.WebUI.Controllers
             if (ModelState.IsValid)
             {
                 CheckUploadImage(account, image);
-                repository.SaveAccount(account);
+                this.accRepo.SaveAccount(account);
                 TempData["message"] = string.Format("{0} has been updated", account.Username);
                 return RedirectToAction("List", "Product");
             }
@@ -140,7 +145,7 @@ namespace SportsStore.WebUI.Controllers
         public ActionResult History()
         {
             var user = Session["User"];
-            IQueryable<Order> entry = repository2.Orders.Where(x => x.Username == user);
+            IEnumerable<Order> entry = this.ordRepo.Orders.Where(x => x.Username == user);
             return View(entry);
         }
 
@@ -155,7 +160,7 @@ namespace SportsStore.WebUI.Controllers
         }
         public FileContentResult GetImage(int accountId)
         {
-            Account acc = repository.Accounts.FirstOrDefault(p => p.AccountId == accountId);
+            Account acc = this.accRepo.Accounts.FirstOrDefault(p => p.AccountId == accountId);
             if (acc != null)
             {
                 return File(acc.ImageData, acc.ImageMimeType);

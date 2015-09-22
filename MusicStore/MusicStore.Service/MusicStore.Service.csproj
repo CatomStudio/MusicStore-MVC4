@@ -39,9 +39,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Accouts\AccountManage.cs" />
+    <Compile Include="Accouts\AccountRepo.cs" />
+    <Compile Include="Orders\OrderManage.cs" />
+    <Compile Include="Orders\OrderRepo.cs" />
+    <Compile Include="Products\ProductManage.cs" />
+    <Compile Include="Products\ProductRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MusicStore.Domain\MusicStore.Domain.csproj">
+      <Project>{646f20f4-2aaf-475e-901e-9866f0e5f4ae}</Project>
+      <Name>MusicStore.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

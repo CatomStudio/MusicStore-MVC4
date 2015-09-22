@@ -3,45 +3,46 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using MusicStore.Domain.Abstract;
+using MusicStore.Domain.Data;
 using MusicStore.Domain.Entities;
+using MusicStore.Domain.Repo;
+using MusicStore.Service.Products;
 using MusicStore.WebUI.Models;
-
 
 namespace MusicStore.WebUI.Controllers
 {
-    public class ProductController : Controller
+    public class ProductController : BaseController
     {
-        private IProductRepository repository;
+        private ProductManage proRepo;
+
         public int PageSize = 4;
-        public ProductController(IProductRepository productRepository)
+        public ProductController()
         {
-            this.repository = productRepository;
+            using (UnitOfWork)
+            {
+                this.proRepo = new ProductManage(UnitOfWork);
+            }
         }
+
         public ViewResult List(string category, int page = 1)
         {
             ProductsListViewModel model = new ProductsListViewModel
             {
-                Products = repository.Products
-                .Where(p => category == null || p.Category == category)
-                .OrderBy(p => p.ProductId)
-                .Skip((page - 1) * PageSize)
-                .Take(PageSize),
+                Products = this.proRepo.Products.Where(p => category == null || p.Category == category).OrderBy(p => p.ProductId).Skip((page - 1) * PageSize).Take(PageSize),
                 PagingInfo = new PagingInfo
                 {
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
-                    TotalItems = category == null ?
-                                    repository.Products.Count() :
-                                    repository.Products.Where(e => e.Category == category).Count()
+                    TotalItems = category == null ? this.proRepo.Products.Count() : this.proRepo.Products.Where(e => e.Category == category).Count()
                 },
                 CurrentCategory = category
             };
             return View(model);
         }
+
         public FileContentResult GetImage(int productId)
         {
-            Product prod = repository.Products.FirstOrDefault(p => p.ProductId == productId);
+            Product prod = this.proRepo.Products.FirstOrDefault(p => p.ProductId == productId);
             if (prod != null)
             {
                 return File(prod.ImageData, prod.ImageMimeType);
@@ -51,5 +52,8 @@ namespace MusicStore.WebUI.Controllers
                 return null;
             }
         }
+
+
+
     }
 }
