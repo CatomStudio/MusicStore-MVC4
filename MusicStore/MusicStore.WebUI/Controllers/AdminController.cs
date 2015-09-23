@@ -17,12 +17,13 @@ namespace MusicStore.WebUI.Controllers
     [Authorize]
     public class AdminController : BaseController
     {
-        IAuthProvider authProvider;
+        private IAuthProvider auth;
         private ProductManage proRepo;
         private OrderManage ordRepo;
 
-        public AdminController()
+        public AdminController(IAuthProvider auth)
         {
+            this.auth = auth;
             using (UnitOfWork)
             {
                 this.proRepo = new ProductManage(UnitOfWork);
@@ -87,7 +88,6 @@ namespace MusicStore.WebUI.Controllers
 
         public ActionResult Logout()
         {
-            authProvider.Logout();
             Session["User"] = null;
             return RedirectToAction("List", "Product");
         }

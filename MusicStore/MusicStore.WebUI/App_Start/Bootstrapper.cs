@@ -1,4 +1,4 @@
-﻿using System.Collections.Specialized;
+﻿using System.Collections;
 using System.Configuration;
 using System.Web.Mvc;
 using Microsoft.Practices.Unity;

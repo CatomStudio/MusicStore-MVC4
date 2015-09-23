@@ -11,6 +11,7 @@ using MusicStore.Domain.Utils;
 using MusicStore.Service.Accounts;
 using MusicStore.Service.Orders;
 using MusicStore.Service.Products;
+using MusicStore.WebUI.App_Start;
 
 namespace MusicStore.WebUI.Controllers
 {
@@ -18,7 +19,7 @@ namespace MusicStore.WebUI.Controllers
     {
         public BaseController()
         {
-
+            UnitOfWork = UnitOfWork == null ? Bootstrapper.Instance.UnityContainer.Resolve<IUnitOfWork>("UnitOfWork") : UnitOfWork;
         }
 
         [Dependency("UnitOfWork")]

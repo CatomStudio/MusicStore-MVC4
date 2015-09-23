@@ -19,8 +19,9 @@ namespace MusicStore.WebUI.Controllers
         private AccountManage accRepo;
         private OrderManage ordRepo; 
 
-        public AccountController()
+        public AccountController(IAuthProvider auth)
         {
+            this.authProvider = auth;
             using (UnitOfWork)
             {
                 this.accRepo = new AccountManage(UnitOfWork);

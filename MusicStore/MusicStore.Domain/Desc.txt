@@ -1,9 +1,13 @@
 ﻿
 》》Repository 和 UnitOfWork 区别：
-1. Repository 关注的是数据处理的细节问题，如增删改查；而 UnitOfWork 关注的是连接、事物等的数据库宏观的问题。
-	两者间是不同角度的关系，而不是包含的关系。
-	Repository ——> CRUD
-	UnitOfWork——>DB
+1. Repository 关注的是数据处理的细节问题，如增删改查；而 UnitOfWork 关注的是连接、事物等的数据库方面的问题。
+	关系图：	
+		Repository ——> Data/CRUD
+		UnitOfWork ——> DB/Connection
+	1）两者间是不同角度的关系，而不是完全的包含关系；
+	2）DAL 层的处理过程都是建立在 DbConnection 之上的，所以 Repository 类需要以 UnitOfWork 为成员；
+
+	
 
 》》C#中Abstract和Virtual
 在C#的学习中，容易混淆virtual方法和abstract方法的使用，现在来讨论一下二者的区别。二者都牵涉到在派生类中与override的配合使用。

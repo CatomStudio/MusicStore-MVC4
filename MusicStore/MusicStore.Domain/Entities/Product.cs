@@ -5,11 +5,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dapper.Contrib.Extensions;
 
 namespace MusicStore.Domain.Entities
 {
     public class Product
     {
+        [PrimaryKey(true)]
         [HiddenInput(DisplayValue = false)]
         public int ProductId { get; set; }
         [Required(ErrorMessage = "Please enter a product name")]

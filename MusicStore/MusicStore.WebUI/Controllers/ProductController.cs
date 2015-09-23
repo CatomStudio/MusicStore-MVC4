@@ -16,11 +16,12 @@ namespace MusicStore.WebUI.Controllers
         private ProductManage proRepo;
 
         public int PageSize = 4;
+
         public ProductController()
         {
             using (UnitOfWork)
             {
-                this.proRepo = new ProductManage(UnitOfWork);
+                this.proRepo = this.proRepo == null ? new ProductManage(UnitOfWork) : this.proRepo;
             }
         }
 

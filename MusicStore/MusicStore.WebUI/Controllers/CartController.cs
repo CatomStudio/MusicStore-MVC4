@@ -22,8 +22,8 @@ namespace MusicStore.WebUI.Controllers
         {
             using (UnitOfWork)
             {
-                this.proRepo = new ProductManage(UnitOfWork);
-                this.ordRepo = new OrderManage(UnitOfWork);
+                this.proRepo = this.proRepo == null ? new ProductManage(UnitOfWork) : this.proRepo;
+                this.ordRepo = this.ordRepo == null ? new OrderManage(UnitOfWork) : this.ordRepo;
             }
         }
 

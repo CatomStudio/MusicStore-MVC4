@@ -26,17 +26,17 @@ namespace MusicStore.WebUI.Infrastructure
             AddBindings();
         }
 
-        //protected override IController GetControllerInstance(RequestContext requestContext, Type controllerType)
-        //{
-        //    return controllerType == null ? null : (IController)ninjectKernel.Get(controllerType);
-        //}
-        
+        protected override IController GetControllerInstance(RequestContext requestContext, Type controllerType)
+        {
+            return controllerType == null ? null : (IController)ninjectKernel.Get(controllerType);
+        }
+
         private void AddBindings()
         {
             ninjectKernel.Bind<AccountManage>();
             ninjectKernel.Bind<ProductManage>();
             ninjectKernel.Bind<OrderManage>();
-            //ninjectKernel.Bind<IAuthProvider>().To<FormsAuthProvider>();
+            ninjectKernel.Bind<IAuthProvider>().To<FormsAuthProvider>();
         }
 
     }

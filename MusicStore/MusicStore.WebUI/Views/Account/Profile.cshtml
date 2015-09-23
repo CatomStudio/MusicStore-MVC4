@@ -9,15 +9,15 @@
 FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     @Html.ValidationSummary()
-    @Html.HiddenFor(x=>x.AccountId)
-    @Html.HiddenFor(x=>x.Username)
-    @Html.HiddenFor(x=>x.Password)
+    @Html.HiddenFor(x => x.AccountId)
+    @Html.HiddenFor(x => x.Username)
+    @Html.HiddenFor(x => x.Password)
     <p><h3>Fullname:</h3></p>@Html.EditorFor(x => x.Name)
     <p><h3>Address:</h3></p>@Html.TextAreaFor(x => x.Address)
     <div>
         @if (Model.ImageData == null)
         {
-            <br/>@:No Image
+            <br />@:No Image
         }
         else
         {
